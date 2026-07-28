@@ -1,21 +1,31 @@
 
-
-
+# Виртуальное окружение
 venv/
-env/
 .venv/
-*/__pycache__/
-*.pyc
-*.pyo
-
-
+env/
 .env
 
+# Jupyter временные файлы и чекпоинты
+.ipynb_checkpoints/
+*.ipynb-checkpoint
 
-*.tmp
+# Переменные окружения (секреты)
+.env
+
+# Базы данных / кэш / логи
+*.db
+*.sqlite
 *.log
-temp/
 tmp/
+temp/
 
-.DS_Store
-Thumbs.db
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Артефакты сборки
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
